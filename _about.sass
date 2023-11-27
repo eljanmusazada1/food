@@ -1,0 +1,59 @@
+#about
+    padding: 50px 0 80px
+    .textbox
+        padding: 0 10px 40px 7px
+        .bigicon
+            i
+                font-size: 28px
+                color: #a2c0be
+                margin-bottom: 20px
+        h1
+            font-size: 30px
+            font-weight: 700
+        h3, p
+            color: #7b7a76
+            font-size: 20px
+            margin-top: 20px
+            line-height: 1.6
+        p
+            color: #7a959a
+            font-size: 18px
+            margin-bottom: 25px
+        ul
+            li
+                display: flex
+                padding-top: 20px
+                .icon
+                    margin-right: 15px
+                    color: #a2c0be
+                h4
+                    font-size: 20px
+                    color: #949494
+    .imgbox
+        width: 280px
+        margin-left: 7px
+
+    @media screen and ( min-width: 576px )
+        .imgbox
+            width: 350px
+
+    @media screen and ( min-width: 768px )
+        .textbox
+            padding: 20px 50px 0 0
+            h1
+                font-size: 40px
+            h3
+                font-size: 22px
+            p
+                font-size: 20px
+        .imgbox
+            width: 425px
+            margin-left: 0px
+
+    @media screen and ( min-width: 992px )
+        .imgbox
+            width: 460px
+
+    h1, h3, h4, p
+        &:hover
+            cursor: auto

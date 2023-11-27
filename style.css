@@ -1,0 +1,596 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox img {
+  width: 100%;
+}
+
+#welcome {
+  padding: 80px 0;
+}
+#welcome .imgbox {
+  max-width: 700px;
+}
+#welcome .right .col-right {
+  order: 1;
+}
+#welcome .right .col-right .txtright {
+  text-align: left;
+}
+#welcome .txtright, #welcome .txtleft {
+  max-width: 700px;
+  padding: 30px 20px 30px 7px;
+}
+#welcome .wid {
+  width: 600px;
+}
+#welcome .wid .bigicon i {
+  font-size: 28px;
+  color: #a2c0be;
+}
+#welcome .wid h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+#welcome .wid h3 {
+  color: #968f8f;
+  font-size: 20px;
+  margin-bottom: 50px;
+  line-height: 1.4;
+}
+#welcome .textbox h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+#welcome .textbox p {
+  font-size: 18px;
+  color: #968f8f;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+#welcome .textbox .btn {
+  padding: 10px 30px;
+  background-color: #a2c0be;
+  border-radius: 20px;
+}
+#welcome .textbox .btn:hover {
+  cursor: pointer;
+  background-color: #000000;
+}
+#welcome .textbox .btn h4 {
+  font-size: 18px;
+  color: #ffffff;
+}
+#welcome .textbox .btn h4:hover {
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  #welcome .textbox .bigicon i {
+    font-size: 32px;
+  }
+  #welcome .textbox h1 {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #welcome .right .col-right {
+    order: -1;
+  }
+  #welcome .right .col-right .txtright {
+    text-align: right;
+  }
+  #welcome .txtright {
+    padding: 30px 50px 30px 15px;
+  }
+  #welcome .txtleft {
+    padding: 30px 15px 30px 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #welcome .txtright {
+    padding: 30px 65px 30px 45px;
+  }
+  #welcome .txtleft {
+    padding: 30px 45px 30px 65px;
+  }
+  #welcome p {
+    font-size: 19px;
+  }
+}
+#welcome h1:hover, #welcome h2:hover, #welcome h3:hover, #welcome p:hover {
+  cursor: auto;
+}
+
+#dogger {
+  padding: 40px 0;
+}
+#dogger .wid {
+  width: 600px;
+}
+#dogger .bigicon i {
+  font-size: 28px;
+  color: #a2c0be;
+}
+#dogger h1 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 700;
+}
+#dogger h3 {
+  color: #968f8f;
+  font-size: 20px;
+  margin: 20px 0 60px;
+  line-height: 1.4;
+}
+#dogger .box {
+  display: flex;
+  flex-direction: column;
+}
+#dogger .box .imgbox {
+  width: 200px;
+  margin-bottom: 30px;
+}
+#dogger .box .textbox h2 {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #000000;
+}
+#dogger .box .textbox h4 {
+  color: #8e8686;
+  font-size: 18px;
+}
+#dogger .box .textbox p {
+  color: #948787;
+  line-height: 1.5;
+  font-size: 18px;
+}
+#dogger .box .textbox h5 {
+  font-size: 18px;
+  color: #5f625e;
+  margin-bottom: 40px;
+}
+#dogger .box .textbox h5:hover {
+  color: #7292a4;
+  cursor: pointer;
+}
+#dogger .box .textbox p, #dogger .box .textbox h4, #dogger .box .textbox h5 {
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  #dogger .bigicon i {
+    font-size: 32px;
+  }
+  #dogger h1 {
+    font-size: 36px;
+  }
+  #dogger .box .imgbox {
+    width: 300px;
+  }
+  #dogger .box .textbox {
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #dogger .box {
+    flex-direction: row;
+  }
+  #dogger .box .textbox {
+    margin-left: 20px;
+  }
+}
+#dogger h1:hover, #dogger h2:hover, #dogger h3:hover, #dogger h4:hover, #dogger p:hover {
+  cursor: auto;
+}
+
+#services {
+  padding: 40px 0;
+}
+#services h1 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 20px 0;
+}
+#services h3 {
+  font-size: 20px;
+  color: #968f8f;
+  line-height: 1.4;
+  margin-bottom: 25px;
+}
+#services .textbox {
+  padding: 30px;
+}
+#services .textbox h2 {
+  font-size: 25px;
+  color: #000000;
+  margin-top: 20px;
+}
+#services .textbox p {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #968f8f;
+  line-height: 1.4;
+}
+#services .textbox .icon i {
+  font-size: 60px;
+}
+#services .wid {
+  width: 600px;
+  padding: 0px;
+}
+#services .wid .bigicon i {
+  font-size: 28px;
+  color: #a2c0be;
+}
+@media screen and (min-width: 768px) {
+  #services .wid .bigicon i {
+    font-size: 32px;
+  }
+  #services .wid h1 {
+    font-size: 36px;
+  }
+}
+#services h1:hover, #services h2:hover, #services h3:hover, #services p:hover {
+  cursor: auto;
+}
+
+#about {
+  padding: 50px 0 80px;
+}
+#about .textbox {
+  padding: 0 10px 40px 7px;
+}
+#about .textbox .bigicon i {
+  font-size: 28px;
+  color: #a2c0be;
+  margin-bottom: 20px;
+}
+#about .textbox h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+#about .textbox h3, #about .textbox p {
+  color: #7b7a76;
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+#about .textbox p {
+  color: #7a959a;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+#about .textbox ul li {
+  display: flex;
+  padding-top: 20px;
+}
+#about .textbox ul li .icon {
+  margin-right: 15px;
+  color: #a2c0be;
+}
+#about .textbox ul li h4 {
+  font-size: 20px;
+  color: #949494;
+}
+#about .imgbox {
+  width: 280px;
+  margin-left: 7px;
+}
+@media screen and (min-width: 576px) {
+  #about .imgbox {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #about .textbox {
+    padding: 20px 50px 0 0;
+  }
+  #about .textbox h1 {
+    font-size: 40px;
+  }
+  #about .textbox h3 {
+    font-size: 22px;
+  }
+  #about .textbox p {
+    font-size: 20px;
+  }
+  #about .imgbox {
+    width: 425px;
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #about .imgbox {
+    width: 460px;
+  }
+}
+#about h1:hover, #about h3:hover, #about h4:hover, #about p:hover {
+  cursor: auto;
+}
+
+#pricing {
+  padding: 40px 0;
+}
+#pricing .textbox {
+  width: 600px;
+  padding-bottom: 30px;
+}
+#pricing .textbox .bigicon i {
+  font-size: 28px;
+  color: #a2c0be;
+}
+#pricing .textbox h1 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#pricing .textbox h3 {
+  font-size: 20px;
+  color: #968f8f;
+  line-height: 1.4;
+  margin: 20px 0;
+}
+#pricing .box {
+  width: 350px;
+  color: #ffffff;
+  background-color: #a2c0be;
+  padding: 50px 30px;
+  text-align: center;
+}
+#pricing .box h2 {
+  font-size: 25px;
+}
+#pricing .box h4 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+#pricing .box li {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+#pricing .box li p {
+  font-size: 18px;
+  margin-left: 10px;
+}
+#pricing .box .line p {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+#pricing .box .btn {
+  padding: 10px 35px;
+  margin: 30px 0 0;
+  border-radius: 30px;
+  background-color: #5a6268;
+}
+#pricing .box .btn h5 {
+  color: #ffffff;
+}
+#pricing .box .btn h5:hover {
+  cursor: pointer;
+}
+#pricing .box .btn:hover {
+  background-color: #000000;
+}
+#pricing .PREMIUM {
+  background-color: #343a40;
+}
+#pricing .PREMIUM .btn {
+  background-color: #a2c0be;
+}
+@media screen and (min-width: 768px) {
+  #pricing .textbox .bigicon i {
+    font-size: 32px;
+  }
+  #pricing .textbox h1 {
+    font-size: 36px;
+  }
+}
+#pricing h1:hover, #pricing h2:hover, #pricing h3:hover, #pricing h4:hover, #pricing p:hover {
+  cursor: auto;
+}
+
+#questions {
+  padding: 50px 0;
+}
+#questions .wid {
+  width: 600px;
+}
+#questions .bigicon i {
+  font-size: 28px;
+  color: #a2c0be;
+}
+#questions h1 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 20px 0;
+  line-height: 1.5;
+}
+#questions h3 {
+  font-size: 20px;
+  margin-bottom: 40px;
+  line-height: 1.4;
+  color: #968f8f;
+}
+#questions .textbox {
+  padding: 0 40px 0 7px;
+  margin-bottom: 30px;
+}
+#questions .textbox h2 {
+  font-size: 24px;
+  margin-left: 10px;
+}
+#questions .textbox .minibox {
+  margin-top: 20px;
+}
+#questions .textbox .minibox .icon i {
+  color: #cccccd;
+  font-size: 22px;
+}
+#questions .textbox p {
+  font-size: 18px;
+  margin: 30px 0 0 30px;
+  color: #968f8f;
+  line-height: 1.5;
+}
+#questions .textbox ul li {
+  margin: 30px 0 0;
+  display: flex;
+}
+#questions .textbox ul li .icon i {
+  font-size: 22px;
+  color: #cccccd;
+}
+#questions .imgbox {
+  margin-left: 7px;
+}
+@media screen and (min-width: 992px) {
+  #questions .bigicon i {
+    font-size: 32px;
+  }
+  #questions h1 {
+    font-size: 36px;
+  }
+  #questions h3 {
+    margin-bottom: 50px;
+  }
+  #questions .textbox {
+    margin-bottom: 0px;
+    padding: 0 40px 0 0;
+  }
+  #questions .imgbox {
+    margin-left: 0px;
+  }
+}
+#questions h1:hover, #questions h2:hover, #questions h3:hover, #questions p:hover {
+  cursor: auto;
+}
+
+#our {
+  padding: 40px 0;
+  background-color: #a2c0be;
+  position: relative;
+}
+#our .wid {
+  width: 600px;
+  padding-bottom: 30px;
+}
+#our .wid i {
+  font-size: 28px;
+  color: #ffffff;
+}
+#our .wid h1 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#our .wid h3 {
+  font-size: 20px;
+  color: #4b4a4a;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+#our .box {
+  margin: 0 5px;
+  padding-bottom: 30px;
+}
+#our .box .textbox {
+  padding: 15px;
+}
+#our .box h2 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+#our .box h4 {
+  color: #4b4a4a;
+  font-size: 18px;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+#our .box ul {
+  display: flex;
+}
+#our .box ul li {
+  margin-right: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  width: 10px;
+  height: 10px;
+  transition: 0.5s;
+}
+#our .box ul li:hover {
+  transform: translate(0, -10px);
+  cursor: pointer;
+}
+#our .box ul li .icon {
+  margin: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#our .box ul li .icon i {
+  font-size: 12px;
+}
+#our .box ul li .icon i:hover {
+  cursor: pointer;
+}
+#our .box .imgbox {
+  opacity: 0.5;
+}
+@media screen and (min-width: 768px) {
+  #our .bigicon i {
+    font-size: 32px;
+  }
+  #our h1 {
+    font-size: 36px;
+  }
+}
+#our h1:hover, #our h2:hover, #our h3:hover, #our h4:hover {
+  cursor: auto;
+}
+
+#carefor {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+#carefor .textbox {
+  padding: 0;
+  text-align: center;
+}
+#carefor .textbox h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+#carefor .textbox h4 {
+  color: #979797;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+#carefor .imgbox {
+  width: 280px;
+}
+@media screen and (min-width: 768px) {
+  #carefor .textbox {
+    padding: 0 20px;
+    text-align: start;
+  }
+  #carefor .textbox h1 {
+    font-size: 65px;
+  }
+  #carefor .textbox h4 {
+    font-size: 27px;
+  }
+  #carefor .imgbox {
+    width: 420px;
+  }
+}
+#carefor h1:hover, #carefor h4:hover {
+  cursor: auto;
+}/*# sourceMappingURL=style.css.map */

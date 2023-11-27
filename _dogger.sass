@@ -1,0 +1,66 @@
+#dogger
+    padding: 40px 0
+    .wid
+        width: 600px
+    .bigicon
+        i
+            font-size: 28px
+            color: #a2c0be
+    h1
+        margin-top: 20px
+        font-size: 30px
+        font-weight: 700
+    h3
+        color: #968f8f
+        font-size: 20px
+        margin: 20px 0 60px
+        line-height: 1.4
+    .box
+        display: flex
+        flex-direction: column
+        .imgbox
+            width: 200px
+            margin-bottom: 30px
+        .textbox
+            h2
+                font-size: 20px
+                line-height: 1.2
+                color: #000000
+            h4
+                color: #8e8686
+                font-size: 18px
+            p
+                color: #948787
+                line-height: 1.5
+                font-size: 18px
+            h5
+                font-size: 18px
+                color: #5f625e
+                margin-bottom: 40px
+                &:hover
+                    color: #7292a4
+                    cursor: pointer
+            p, h4, h5
+                margin-top: 15px
+
+    @media screen and ( min-width: 768px )
+        .bigicon
+            i
+                font-size: 32px
+        h1
+            font-size: 36px
+        .box
+            .imgbox
+                width: 300px
+            .textbox
+                margin-left: 0px
+
+    @media screen and ( min-width: 992px )
+        .box
+            flex-direction: row
+            .textbox
+                margin-left: 20px
+
+    h1, h2, h3, h4, p
+        &:hover
+            cursor: auto
